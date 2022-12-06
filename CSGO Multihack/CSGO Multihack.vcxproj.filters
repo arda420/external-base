@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Header imgui">
+      <UniqueIdentifier>{cc06a8eb-e8c8-4aeb-80fe-1b37f4aa913a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source imgui">
+      <UniqueIdentifier>{8626e145-48aa-404f-9a06-5bc2f0a78737}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_widgets.cpp">
+      <Filter>Source Files\Source imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_tables.cpp">
+      <Filter>Source Files\Source imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_draw.cpp">
+      <Filter>Source Files\Source imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_demo.cpp">
+      <Filter>Source Files\Source imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui.cpp">
+      <Filter>Source Files\Source imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_impl_dx9.cpp">
+      <Filter>Source Files\Source imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_impl_win32.cpp">
+      <Filter>Source Files\Source imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skinchanger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imstb_truetype.h">
+      <Filter>Header Files\Header imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imstb_textedit.h">
+      <Filter>Header Files\Header imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imstb_rectpack.h">
+      <Filter>Header Files\Header imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui_internal.h">
+      <Filter>Header Files\Header imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui.h">
+      <Filter>Header Files\Header imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui_impl_dx9.h">
+      <Filter>Header Files\Header imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui_impl_win32.h">
+      <Filter>Header Files\Header imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CSGO Multihack.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Icon\ak47-icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
